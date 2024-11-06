@@ -10,7 +10,7 @@ Array.from(buttons).forEach((button) => {
     }
      
     else if (e.target.innerHTML == "C"){
-        string = "";
+        string = "0";
         document.querySelector('input').value = string;
     }
     else{
@@ -18,5 +18,5 @@ Array.from(buttons).forEach((button) => {
     string = string + e.target.innerHTML;
     document.querySelector('input').value = string;
     }
-   })
+   }) 
 });
